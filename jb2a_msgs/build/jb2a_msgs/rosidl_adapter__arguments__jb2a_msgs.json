@@ -1,0 +1,7 @@
+{
+  "package_name": "jb2a_msgs",
+  "non_idl_tuples": [
+    "/home/pierre/workspace/ros2_demo/src/jb2a_msgs:msg/ServoState.msg",
+    "/home/pierre/workspace/ros2_demo/src/jb2a_msgs:msg/JointState.msg"
+  ]
+}

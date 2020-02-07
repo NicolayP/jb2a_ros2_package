@@ -1,0 +1,25 @@
+{
+  "package_name": "jb2a_msgs",
+  "output_dir": "/home/pierre/workspace/ros2_demo/src/jb2a_msgs/build/jb2a_msgs/rosidl_typesupport_c/jb2a_msgs",
+  "template_dir": "/opt/ros/dashing/share/rosidl_typesupport_c/resource",
+  "idl_tuples": [
+    "/home/pierre/workspace/ros2_demo/src/jb2a_msgs/build/jb2a_msgs/rosidl_adapter/jb2a_msgs:msg/ServoState.idl",
+    "/home/pierre/workspace/ros2_demo/src/jb2a_msgs/build/jb2a_msgs/rosidl_adapter/jb2a_msgs:msg/JointState.idl"
+  ],
+  "ros_interface_dependencies": [
+    "builtin_interfaces:/opt/ros/dashing/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/opt/ros/dashing/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/dashing/lib/rosidl_typesupport_c/rosidl_typesupport_c",
+    "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_typesupport_c/__init__.py",
+    "/opt/ros/dashing/share/rosidl_typesupport_c/resource/action__type_support.c.em",
+    "/opt/ros/dashing/share/rosidl_typesupport_c/resource/idl__type_support.cpp.em",
+    "/opt/ros/dashing/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em",
+    "/opt/ros/dashing/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em",
+    "/home/pierre/workspace/ros2_demo/src/jb2a_msgs/build/jb2a_msgs/rosidl_adapter/jb2a_msgs/msg/ServoState.idl",
+    "/home/pierre/workspace/ros2_demo/src/jb2a_msgs/build/jb2a_msgs/rosidl_adapter/jb2a_msgs/msg/JointState.idl",
+    "/opt/ros/dashing/share/builtin_interfaces/msg/Duration.idl",
+    "/opt/ros/dashing/share/builtin_interfaces/msg/Time.idl"
+  ]
+}

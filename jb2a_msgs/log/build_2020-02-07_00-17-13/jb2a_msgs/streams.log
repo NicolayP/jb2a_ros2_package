@@ -1,0 +1,206 @@
+[0.011s] Invoking command in '/home/pierre/workspace/ros2_demo/src/jb2a_msgs/build/jb2a_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pierre/workspace/ros2_demo/install/py_pubsub:/opt/ros/dashing PS1=${debian_chroot:+($debian_chroot)}\[\033[01;33m\]\u\[\033[00m\]\[\033[01;40m\]@\[\033[00m\]\[\033[01;32m\]\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/pierre/workspace/ros2_demo/src/jb2a_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs
+[0.062s] -- The C compiler identification is GNU 7.4.0
+[0.112s] -- The CXX compiler identification is GNU 7.4.0
+[0.115s] -- Check for working C compiler: /usr/bin/cc
+[0.177s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.178s] -- Detecting C compiler ABI info
+[0.243s] -- Detecting C compiler ABI info - done
+[0.247s] -- Detecting C compile features
+[0.436s] -- Detecting C compile features - done
+[0.437s] -- Check for working CXX compiler: /usr/bin/c++
+[0.519s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.520s] -- Detecting CXX compiler ABI info
+[0.590s] -- Detecting CXX compiler ABI info - done
+[0.594s] -- Detecting CXX compile features
+[0.905s] -- Detecting CXX compile features - done
+[0.907s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.937s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[0.937s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.087s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.104s] -- Found rclcpp: 0.7.12 (/opt/ros/dashing/share/rclcpp/cmake)
+[1.123s] -- Found rosidl_adapter: 0.7.8 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[1.156s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[1.158s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.158s] -- Looking for pthread.h
+[1.230s] -- Looking for pthread.h - found
+[1.230s] -- Looking for pthread_create
+[1.298s] -- Looking for pthread_create - not found
+[1.298s] -- Looking for pthread_create in pthreads
+[1.358s] -- Looking for pthread_create in pthreads - not found
+[1.358s] -- Looking for pthread_create in pthread
+[1.430s] -- Looking for pthread_create in pthread - found
+[1.431s] -- Found Threads: TRUE  
+[1.457s] -- Found std_msgs: 0.7.0 (/opt/ros/dashing/share/std_msgs/cmake)
+[1.462s] -- Found rosidl_default_generators: 0.7.0 (/opt/ros/dashing/share/rosidl_default_generators/cmake)
+[1.537s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1") 
+[1.557s] -- Found FastRTPS: /opt/ros/dashing/include  
+[1.600s] -- Found ament_lint_auto: 0.7.11 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[1.692s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[1.767s] -- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c
+[1.773s] -- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp
+[1.877s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") 
+[1.878s] -- Found python_cmake_module: 0.7.10 (/opt/ros/dashing/share/python_cmake_module/cmake)
+[1.908s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.5") 
+[1.908s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.909s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+[1.909s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.6m.so
+[1.935s] -- Found PythonExtra: .so  
+[2.045s] -- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+[2.050s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.052s] -- Configured cppcheck include dirs: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/build/jb2a_msgs/rosidl_generator_c;/home/pierre/workspace/ros2_demo/src/jb2a_msgs/build/jb2a_msgs/rosidl_typesupport_c;/home/pierre/workspace/ros2_demo/src/jb2a_msgs/build/jb2a_msgs/rosidl_typesupport_fastrtps_c;/home/pierre/workspace/ros2_demo/src/jb2a_msgs/build/jb2a_msgs/rosidl_generator_cpp;/home/pierre/workspace/ros2_demo/src/jb2a_msgs/build/jb2a_msgs/rosidl_typesupport_fastrtps_cpp;/home/pierre/workspace/ros2_demo/src/jb2a_msgs/build/jb2a_msgs/rosidl_typesupport_introspection_c;/home/pierre/workspace/ros2_demo/src/jb2a_msgs/build/jb2a_msgs/rosidl_generator_py
+[2.057s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.058s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.060s] -- Added test 'lint_cmake' to check CMake code style
+[2.061s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.067s] -- Added test 'uncrustify' to check C / C++ code style
+[2.069s] -- Added test 'xmllint' to check XML markup files
+[2.074s] -- Configuring done
+[2.135s] -- Generating done
+[2.138s] -- Build files have been written to: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/build/jb2a_msgs
+[2.143s] Invoked command in '/home/pierre/workspace/ros2_demo/src/jb2a_msgs/build/jb2a_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pierre/workspace/ros2_demo/install/py_pubsub:/opt/ros/dashing PS1=${debian_chroot:+($debian_chroot)}\[\033[01;33m\]\u\[\033[00m\]\[\033[01;40m\]@\[\033[00m\]\[\033[01;32m\]\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/pierre/workspace/ros2_demo/src/jb2a_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs
+[2.146s] Invoking command in '/home/pierre/workspace/ros2_demo/src/jb2a_msgs/build/jb2a_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pierre/workspace/ros2_demo/install/py_pubsub:/opt/ros/dashing PS1=${debian_chroot:+($debian_chroot)}\[\033[01;33m\]\u\[\033[00m\]\[\033[01;40m\]@\[\033[00m\]\[\033[01;32m\]\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/pierre/workspace/ros2_demo/src/jb2a_msgs/build/jb2a_msgs -- -j4 -l4
+[2.183s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.184s] [35m[1mScanning dependencies of target jb2a_msgs__cpp[0m
+[2.193s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.458s] [  5%] Built target jb2a_msgs__cpp
+[2.468s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.468s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.492s] [35m[1mScanning dependencies of target jb2a_msgs__rosidl_generator_c[0m
+[2.503s] [ 13%] [32mBuilding C object CMakeFiles/jb2a_msgs__rosidl_generator_c.dir/rosidl_generator_c/jb2a_msgs/msg/servo_state__functions.c.o[0m
+[2.503s] [ 16%] [32mBuilding C object CMakeFiles/jb2a_msgs__rosidl_generator_c.dir/rosidl_generator_c/jb2a_msgs/msg/joint_state__functions.c.o[0m
+[2.542s] [ 18%] [32m[1mLinking C shared library libjb2a_msgs__rosidl_generator_c.so[0m
+[2.572s] [ 18%] Built target jb2a_msgs__rosidl_generator_c
+[2.582s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.730s] [35m[1mScanning dependencies of target jb2a_msgs__rosidl_typesupport_introspection_cpp[0m
+[2.744s] [ 27%] [32mBuilding CXX object CMakeFiles/jb2a_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/jb2a_msgs/msg/servo_state__type_support.cpp.o[0m
+[2.744s] [ 27%] [32mBuilding CXX object CMakeFiles/jb2a_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/jb2a_msgs/msg/joint_state__type_support.cpp.o[0m
+[2.749s] [35m[1mScanning dependencies of target jb2a_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[2.763s] [ 29%] [32mBuilding CXX object CMakeFiles/jb2a_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/jb2a_msgs/msg/dds_fastrtps/servo_state__type_support.cpp.o[0m
+[2.857s] [35m[1mScanning dependencies of target jb2a_msgs__rosidl_typesupport_introspection_c[0m
+[2.869s] [ 32%] [32mBuilding C object CMakeFiles/jb2a_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/jb2a_msgs/msg/servo_state__type_support.c.o[0m
+[2.895s] [ 35%] [32mBuilding C object CMakeFiles/jb2a_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/jb2a_msgs/msg/joint_state__type_support.c.o[0m
+[2.920s] [ 37%] [32m[1mLinking C shared library libjb2a_msgs__rosidl_typesupport_introspection_c.so[0m
+[2.949s] [ 37%] Built target jb2a_msgs__rosidl_typesupport_introspection_c
+[2.963s] [ 40%] [32mBuilding CXX object CMakeFiles/jb2a_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/jb2a_msgs/msg/dds_fastrtps/joint_state__type_support.cpp.o[0m
+[3.015s] [ 43%] [32m[1mLinking CXX shared library libjb2a_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[3.080s] [ 43%] Built target jb2a_msgs__rosidl_typesupport_introspection_cpp
+[3.327s] [ 45%] [32m[1mLinking CXX shared library libjb2a_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.402s] [ 45%] Built target jb2a_msgs__rosidl_typesupport_fastrtps_cpp
+[3.412s] [ 51%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.412s] [ 51%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.637s] [35m[1mScanning dependencies of target jb2a_msgs__rosidl_typesupport_cpp[0m
+[3.650s] [ 56%] [32mBuilding CXX object CMakeFiles/jb2a_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/jb2a_msgs/msg/servo_state__type_support.cpp.o[0m
+[3.651s] [ 56%] [32mBuilding CXX object CMakeFiles/jb2a_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/jb2a_msgs/msg/joint_state__type_support.cpp.o[0m
+[3.679s] [35m[1mScanning dependencies of target jb2a_msgs__rosidl_typesupport_fastrtps_c[0m
+[3.696s] [ 62%] [32mBuilding CXX object CMakeFiles/jb2a_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/jb2a_msgs/msg/joint_state__type_support_c.cpp.o[0m
+[3.696s] [ 62%] [32mBuilding CXX object CMakeFiles/jb2a_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/jb2a_msgs/msg/servo_state__type_support_c.cpp.o[0m
+[4.001s] [ 64%] [32m[1mLinking CXX shared library libjb2a_msgs__rosidl_typesupport_cpp.so[0m
+[4.006s] [ 67%] [32m[1mLinking CXX shared library libjb2a_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[4.081s] [ 67%] Built target jb2a_msgs__rosidl_typesupport_cpp
+[4.086s] [ 67%] Built target jb2a_msgs__rosidl_typesupport_fastrtps_c
+[4.098s] [ 70%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.325s] [35m[1mScanning dependencies of target jb2a_msgs__rosidl_typesupport_c[0m
+[4.338s] [ 72%] [32mBuilding CXX object CMakeFiles/jb2a_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/jb2a_msgs/msg/joint_state__type_support.cpp.o[0m
+[4.340s] [ 75%] [32mBuilding CXX object CMakeFiles/jb2a_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/jb2a_msgs/msg/servo_state__type_support.cpp.o[0m
+[4.367s] [ 78%] [32m[1mLinking CXX shared library libjb2a_msgs__rosidl_typesupport_c.so[0m
+[4.417s] [ 78%] Built target jb2a_msgs__rosidl_typesupport_c
+[4.427s] [35m[1mScanning dependencies of target jb2a_msgs[0m
+[4.436s] [ 78%] Built target jb2a_msgs
+[4.446s] [35m[1mScanning dependencies of target jb2a_msgs__py[0m
+[4.457s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.862s] [ 81%] Built target jb2a_msgs__py
+[4.871s] [35m[1mScanning dependencies of target jb2a_msgs__python[0m
+[4.892s] [ 86%] [32mBuilding C object CMakeFiles/jb2a_msgs__python.dir/rosidl_generator_py/jb2a_msgs/msg/_servo_state_s.c.o[0m
+[4.892s] [ 86%] [32mBuilding C object CMakeFiles/jb2a_msgs__python.dir/rosidl_generator_py/jb2a_msgs/msg/_joint_state_s.c.o[0m
+[4.972s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/jb2a_msgs/libjb2a_msgs__python.so[0m
+[5.023s] [ 89%] Built target jb2a_msgs__python
+[5.035s] [35m[1mScanning dependencies of target jb2a_msgs__rosidl_typesupport_c__pyext[0m
+[5.035s] [35m[1mScanning dependencies of target jb2a_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[5.052s] [ 94%] [32mBuilding C object CMakeFiles/jb2a_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/jb2a_msgs/_jb2a_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.052s] [ 94%] [32mBuilding C object CMakeFiles/jb2a_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/jb2a_msgs/_jb2a_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[5.125s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/jb2a_msgs/jb2a_msgs_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so[0m
+[5.125s] [100%] [32m[1mLinking C shared library rosidl_generator_py/jb2a_msgs/jb2a_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so[0m
+[5.171s] [100%] Built target jb2a_msgs__rosidl_typesupport_c__pyext
+[5.171s] [100%] Built target jb2a_msgs__rosidl_typesupport_fastrtps_c__pyext
+[5.181s] Invoked command in '/home/pierre/workspace/ros2_demo/src/jb2a_msgs/build/jb2a_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pierre/workspace/ros2_demo/install/py_pubsub:/opt/ros/dashing PS1=${debian_chroot:+($debian_chroot)}\[\033[01;33m\]\u\[\033[00m\]\[\033[01;40m\]@\[\033[00m\]\[\033[01;32m\]\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/pierre/workspace/ros2_demo/src/jb2a_msgs/build/jb2a_msgs -- -j4 -l4
+[5.257s] Invoking command in '/home/pierre/workspace/ros2_demo/src/jb2a_msgs/build/jb2a_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pierre/workspace/ros2_demo/install/py_pubsub:/opt/ros/dashing PS1=${debian_chroot:+($debian_chroot)}\[\033[01;33m\]\u\[\033[00m\]\[\033[01;40m\]@\[\033[00m\]\[\033[01;32m\]\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/pierre/workspace/ros2_demo/src/jb2a_msgs/build/jb2a_msgs --target install -- -j4 -l4
+[5.310s] [  2%] Built target jb2a_msgs__cpp
+[5.311s] [ 13%] Built target jb2a_msgs__rosidl_generator_c
+[5.331s] [ 35%] Built target jb2a_msgs__rosidl_typesupport_introspection_cpp
+[5.331s] [ 35%] Built target jb2a_msgs__rosidl_typesupport_introspection_c
+[5.334s] [ 45%] Built target jb2a_msgs__rosidl_typesupport_fastrtps_cpp
+[5.357s] [ 67%] Built target jb2a_msgs__rosidl_typesupport_fastrtps_c
+[5.358s] [ 67%] Built target jb2a_msgs__rosidl_typesupport_cpp
+[5.379s] [ 78%] Built target jb2a_msgs__rosidl_typesupport_c
+[5.400s] [ 78%] Built target jb2a_msgs
+[5.423s] [ 81%] Built target jb2a_msgs__py
+[5.448s] [ 89%] Built target jb2a_msgs__python
+[5.474s] [ 94%] Built target jb2a_msgs__rosidl_typesupport_c__pyext
+[5.479s] [100%] Built target jb2a_msgs__rosidl_typesupport_fastrtps_c__pyext
+[5.499s] [36mInstall the project...[0m
+[5.506s] -- Install configuration: ""
+[5.507s] -- Execute custom install script
+[5.507s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/share/ament_index/resource_index/rosidl_interfaces/jb2a_msgs
+[5.516s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/include/jb2a_msgs/msg/joint_state.hpp
+[5.524s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/include/jb2a_msgs/msg/joint_state__struct.hpp
+[5.532s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/include/jb2a_msgs/msg/joint_state__traits.hpp
+[5.540s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/include/jb2a_msgs/msg/servo_state.hpp
+[5.548s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/include/jb2a_msgs/msg/servo_state__struct.hpp
+[5.556s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/include/jb2a_msgs/msg/servo_state__traits.hpp
+[5.564s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/include/jb2a_msgs/msg/joint_state.h
+[5.572s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/include/jb2a_msgs/msg/joint_state__functions.h
+[5.580s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/include/jb2a_msgs/msg/joint_state__struct.h
+[5.587s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/include/jb2a_msgs/msg/joint_state__type_support.h
+[5.595s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/include/jb2a_msgs/msg/rosidl_generator_c__visibility_control.h
+[5.603s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/include/jb2a_msgs/msg/servo_state.h
+[5.611s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/include/jb2a_msgs/msg/servo_state__functions.h
+[5.618s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/include/jb2a_msgs/msg/servo_state__struct.h
+[5.626s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/include/jb2a_msgs/msg/servo_state__type_support.h
+[5.635s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/share/jb2a_msgs/environment/library_path.sh
+[5.643s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/lib/libjb2a_msgs__rosidl_generator_c.so
+[5.652s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/lib/libjb2a_msgs__rosidl_typesupport_c.so
+[5.660s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/lib/libjb2a_msgs__rosidl_typesupport_cpp.so
+[5.668s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/include/jb2a_msgs/msg/joint_state__rosidl_typesupport_introspection_c.h
+[5.679s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/include/jb2a_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.689s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/include/jb2a_msgs/msg/servo_state__rosidl_typesupport_introspection_c.h
+[5.697s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/lib/libjb2a_msgs__rosidl_typesupport_introspection_c.so
+[5.706s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/include/jb2a_msgs/msg/joint_state__rosidl_typesupport_introspection_cpp.hpp
+[5.715s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/include/jb2a_msgs/msg/servo_state__rosidl_typesupport_introspection_cpp.hpp
+[5.724s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/lib/libjb2a_msgs__rosidl_typesupport_introspection_cpp.so
+[5.735s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/include/jb2a_msgs/msg/joint_state__rosidl_typesupport_fastrtps_c.h
+[5.743s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/include/jb2a_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.751s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/include/jb2a_msgs/msg/servo_state__rosidl_typesupport_fastrtps_c.h
+[5.759s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/lib/libjb2a_msgs__rosidl_typesupport_fastrtps_c.so
+[5.768s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/include/jb2a_msgs/msg/joint_state__rosidl_typesupport_fastrtps_cpp.hpp
+[5.776s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/include/jb2a_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.783s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/include/jb2a_msgs/msg/servo_state__rosidl_typesupport_fastrtps_cpp.hpp
+[5.791s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/lib/libjb2a_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.799s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/share/jb2a_msgs/environment/pythonpath.sh
+[5.807s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/lib/python3.6/site-packages/jb2a_msgs/__init__.py
+[5.816s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/lib/python3.6/site-packages/jb2a_msgs/msg/__init__.py
+[5.825s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/lib/python3.6/site-packages/jb2a_msgs/msg/_joint_state.py
+[5.833s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/lib/python3.6/site-packages/jb2a_msgs/msg/_servo_state.py
+[5.842s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/lib/python3.6/site-packages/jb2a_msgs/jb2a_msgs_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so
+[5.850s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/lib/python3.6/site-packages/jb2a_msgs/jb2a_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so
+[5.858s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/lib/libjb2a_msgs__python.so
+[5.867s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/share/jb2a_msgs/msg/ServoState.idl
+[5.874s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/share/jb2a_msgs/msg/JointState.idl
+[5.882s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/share/jb2a_msgs/msg/ServoState.msg
+[5.891s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/share/jb2a_msgs/msg/JointState.msg
+[5.899s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/share/ament_index/resource_index/package_run_dependencies/jb2a_msgs
+[5.907s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/share/ament_index/resource_index/parent_prefix_path/jb2a_msgs
+[5.915s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/share/jb2a_msgs/environment/ament_prefix_path.sh
+[5.923s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/share/jb2a_msgs/environment/path.sh
+[5.932s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/share/jb2a_msgs/local_setup.bash
+[5.940s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/share/jb2a_msgs/local_setup.sh
+[5.948s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/share/jb2a_msgs/local_setup.zsh
+[5.956s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/share/ament_index/resource_index/packages/jb2a_msgs
+[5.965s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/share/jb2a_msgs/cmake/rosidl_cmake-extras.cmake
+[5.972s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/share/jb2a_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.980s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/share/jb2a_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.988s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/share/jb2a_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.996s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/share/jb2a_msgs/cmake/jb2a_msgsConfig.cmake
+[6.004s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/share/jb2a_msgs/cmake/jb2a_msgsConfig-version.cmake
+[6.013s] -- Symlinking: /home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/share/jb2a_msgs/package.xml
+[6.056s] Compiling '/home/pierre/workspace/ros2_demo/src/jb2a_msgs/install/jb2a_msgs/lib/python3.6/site-packages/jb2a_msgs/__init__.py'...
+[6.063s] Invoked command in '/home/pierre/workspace/ros2_demo/src/jb2a_msgs/build/jb2a_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pierre/workspace/ros2_demo/install/py_pubsub:/opt/ros/dashing PS1=${debian_chroot:+($debian_chroot)}\[\033[01;33m\]\u\[\033[00m\]\[\033[01;40m\]@\[\033[00m\]\[\033[01;32m\]\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/pierre/workspace/ros2_demo/src/jb2a_msgs/build/jb2a_msgs --target install -- -j4 -l4

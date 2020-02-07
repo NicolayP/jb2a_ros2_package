@@ -1,0 +1,29 @@
+{
+  "package_name": "jb2a_msgs",
+  "output_dir": "/home/pierre/workspace/ros2_demo/src/jb2a_msgs/build/jb2a_msgs/rosidl_generator_cpp/jb2a_msgs",
+  "template_dir": "/opt/ros/dashing/share/rosidl_generator_cpp/cmake/../resource",
+  "idl_tuples": [
+    "/home/pierre/workspace/ros2_demo/src/jb2a_msgs/build/jb2a_msgs/rosidl_adapter/jb2a_msgs:msg/ServoState.idl",
+    "/home/pierre/workspace/ros2_demo/src/jb2a_msgs/build/jb2a_msgs/rosidl_adapter/jb2a_msgs:msg/JointState.idl"
+  ],
+  "ros_interface_dependencies": [
+    "builtin_interfaces:/opt/ros/dashing/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/opt/ros/dashing/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/dashing/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp",
+    "/opt/ros/dashing/share/rosidl_generator_cpp/cmake/../../../lib/python3.6/site-packages/rosidl_generator_cpp/__init__.py",
+    "/opt/ros/dashing/share/rosidl_generator_cpp/cmake/../resource/action__struct.hpp.em",
+    "/opt/ros/dashing/share/rosidl_generator_cpp/cmake/../resource/idl.hpp.em",
+    "/opt/ros/dashing/share/rosidl_generator_cpp/cmake/../resource/idl__struct.hpp.em",
+    "/opt/ros/dashing/share/rosidl_generator_cpp/cmake/../resource/idl__traits.hpp.em",
+    "/opt/ros/dashing/share/rosidl_generator_cpp/cmake/../resource/msg__struct.hpp.em",
+    "/opt/ros/dashing/share/rosidl_generator_cpp/cmake/../resource/msg__traits.hpp.em",
+    "/opt/ros/dashing/share/rosidl_generator_cpp/cmake/../resource/srv__struct.hpp.em",
+    "/opt/ros/dashing/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
+    "/home/pierre/workspace/ros2_demo/src/jb2a_msgs/build/jb2a_msgs/rosidl_adapter/jb2a_msgs/msg/ServoState.idl",
+    "/home/pierre/workspace/ros2_demo/src/jb2a_msgs/build/jb2a_msgs/rosidl_adapter/jb2a_msgs/msg/JointState.idl",
+    "/opt/ros/dashing/share/builtin_interfaces/msg/Duration.idl",
+    "/opt/ros/dashing/share/builtin_interfaces/msg/Time.idl"
+  ]
+}
