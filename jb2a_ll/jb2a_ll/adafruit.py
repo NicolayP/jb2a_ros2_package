@@ -21,21 +21,17 @@ from jb2a_msgs.msg import ServoState
 from adafruit_servokit import ServoKit
 
 class MinimalSubscriber(Node):
-
+    # TODO: allow for arguments that modify the nuimber of servo and there angular llimits
     def __init__(self):
-        super().__init__('minimal_subscriber')
+        super().__init__('adafruit_controller')
 
         self.kit = ServoKit(channels=16)
-        self.get_logger().info('Node started, robot should have moved\n')
+        self.get_logger().info('Node started, robot is up and running\n')
         self.subscription = self.create_subscription(ServoState, 'topic', self.listener_callback, 10)
         self.subscription  # prevent unused variable warning
 
     def listener_callback(self, msg):
-        data = ""
-        for i in range(6):
-            data = data + "{}, ".format(msg.servo_state[i])
 
-        self.get_logger().info('I heard: "%s"' % data)
         self.kit.servo[0].angle = msg.servo_state[0]
         self.kit.servo[1].angle = msg.servo_state[1]
         self.kit.servo[2].angle = msg.servo_state[2]
