@@ -31,13 +31,29 @@ class MinimalSubscriber(Node):
         self.subscription  # prevent unused variable warning
 
     def listener_callback(self, msg):
+        '''
+        Receives message of robot configuration from angles between
+        [0; xlim] to [0; 180] using a linear transformation;
 
-        self.kit.servo[0].angle = msg.servo_state[0]
-        self.kit.servo[1].angle = msg.servo_state[1]
-        self.kit.servo[2].angle = msg.servo_state[2]
-        self.kit.servo[3].angle = msg.servo_state[3]
-        self.kit.servo[4].angle = msg.servo_state[4]
-        self.kit.servo[5].angle = msg.servo_state[5]
+        inputs:
+        -------
+            message type: <jb2a_msgs Servostate>.
+
+        outpue:
+        -------
+            None
+        '''
+
+        # TODO: Add parameters to allow for different servos: Will be done if different
+        # Servos are used and should then be a heritage from a abstract servo class.
+        xlim = 120.
+        m = xlim/180.
+        self.kit.servo[0].angle = m * msg.servo_state[0]
+        self.kit.servo[1].angle = m * msg.servo_state[1]
+        self.kit.servo[2].angle = m * msg.servo_state[2]
+        self.kit.servo[3].angle = m * msg.servo_state[3]
+        self.kit.servo[4].angle = m * msg.servo_state[4]
+        self.kit.servo[5].angle = m * msg.servo_state[5]
 
 def main(args=None):
     rclpy.init(args=args)
