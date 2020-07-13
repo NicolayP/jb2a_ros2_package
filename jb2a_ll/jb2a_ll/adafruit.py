@@ -26,7 +26,16 @@ class MinimalSubscriber(Node):
         super().__init__('adafruit_controller')
 
         self.kit = ServoKit(channels=16)
+
+        # TODO: Add parameters to allow for different servos: Will be done if different
+        # Servos are used and should then be a heritage from a abstract servo class.
+        xlim = 120.
+        m = xlim/180.
+
+        self.get_logger().info("m = {}".format(m))
+
         self.get_logger().info('Node started, robot is up and running\n')
+
         self.subscription = self.create_subscription(ServoState, 'topic', self.listener_callback, 10)
         self.subscription  # prevent unused variable warning
 
@@ -43,17 +52,12 @@ class MinimalSubscriber(Node):
         -------
             None
         '''
-
-        # TODO: Add parameters to allow for different servos: Will be done if different
-        # Servos are used and should then be a heritage from a abstract servo class.
-        xlim = 120.
-        m = xlim/180.
-        self.kit.servo[0].angle = m * msg.servo_state[0]
-        self.kit.servo[1].angle = m * msg.servo_state[1]
-        self.kit.servo[2].angle = m * msg.servo_state[2]
-        self.kit.servo[3].angle = m * msg.servo_state[3]
-        self.kit.servo[4].angle = m * msg.servo_state[4]
-        self.kit.servo[5].angle = m * msg.servo_state[5]
+        self.kit.servo[0].angle = self.m * msg.servo_state[0]
+        self.kit.servo[1].angle = self.m * msg.servo_state[1]
+        self.kit.servo[2].angle = self.m * msg.servo_state[2]
+        self.kit.servo[3].angle = self.m * msg.servo_state[3]
+        self.kit.servo[4].angle = self.m * msg.servo_state[4]
+        self.kit.servo[5].angle = self.m * msg.servo_state[5]
 
 def main(args=None):
     rclpy.init(args=args)
