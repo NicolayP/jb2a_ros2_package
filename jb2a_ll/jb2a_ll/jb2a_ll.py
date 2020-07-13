@@ -27,7 +27,7 @@ class Jb2a_ll(Node):
         super().__init__('jb2a_ll')
 
         #self.robot = np.zeros(6)
-        init_state = [90, 0, 180, 180, 180, 0]
+        init_state = [180, 45, 135, 0, 0, 0]
         self.robot = init_state
         self.get_logger().info("{}".format(type(self.robot)))
         self.publisher_ = self.create_publisher(ServoState, 'topic', 10)
